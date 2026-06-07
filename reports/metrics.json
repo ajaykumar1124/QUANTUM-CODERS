@@ -1,0 +1,33 @@
+{
+  "records_after_deduplication": 117899,
+  "anomaly_prevalence": 0.0179,
+  "baseline_raw_robust_anomaly_score": {
+    "precision": 0.0621,
+    "recall": 0.0703,
+    "f1": 0.066,
+    "auc_roc": 0.916,
+    "false_positive_rate": 0.0191
+  },
+  "improved_enriched_logistic_model": {
+    "precision": 0.3199,
+    "recall": 0.9904,
+    "f1": 0.4836,
+    "auc_roc": 0.9984,
+    "false_positive_rate": 0.0379
+  },
+  "features": [
+    "taxable_turnover",
+    "output_tax_liability",
+    "itc_claimed",
+    "net_tax_paid",
+    "filing_delay_days",
+    "filing_gap_months",
+    "itc_to_turnover_ratio",
+    "mom_turnover_variance",
+    "filing_delay_score",
+    "itc_reversal_flag",
+    "sector_deviation_score",
+    "rolling_3m_itc_growth",
+    "rule_prefilter_flag"
+  ]
+}

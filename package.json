@@ -1,0 +1,18 @@
+{
+  "name": "quantum-coders-gst-anomaly",
+  "version": "1.0.0",
+  "description": "Quantum Coders GST revenue anomaly detection prototype with dashboard APIs and reproducible ML pipeline.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js"
+  },
+  "keywords": [
+    "gst",
+    "anomaly-detection",
+    "dashboard",
+    "full-stack"
+  ],
+  "author": "",
+  "license": "MIT"
+}
